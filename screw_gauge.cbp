@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="screw_gauge" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/sg" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-Og" />
+					<Add option="-g" />
+					<Add directory="C:/opencv/include" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/opencv/x64/mingw/lib/libopencv_calib3d343.dll.a" />
+					<Add library="C:/opencv/x64/mingw/lib/libopencv_core343.dll.a" />
+					<Add library="C:/opencv/x64/mingw/lib/libopencv_dnn343.dll.a" />
+					<Add library="C:/opencv/x64/mingw/lib/libopencv_features2d343.dll.a" />
+					<Add library="C:/opencv/x64/mingw/lib/libopencv_flann343.dll.a" />
+					<Add library="C:/opencv/x64/mingw/lib/libopencv_highgui343.dll.a" />
+					<Add library="C:/opencv/x64/mingw/lib/libopencv_imgcodecs343.dll.a" />
+					<Add library="C:/opencv/x64/mingw/lib/libopencv_imgproc343.dll.a" />
+					<Add library="C:/opencv/x64/mingw/lib/libopencv_ml343.dll.a" />
+					<Add library="C:/opencv/x64/mingw/lib/libopencv_objdetect343.dll.a" />
+					<Add library="C:/opencv/x64/mingw/lib/libopencv_photo343.dll.a" />
+					<Add library="C:/opencv/x64/mingw/lib/libopencv_shape343.dll.a" />
+					<Add library="C:/opencv/x64/mingw/lib/libopencv_stitching343.dll.a" />
+					<Add library="C:/opencv/x64/mingw/lib/libopencv_superres343.dll.a" />
+					<Add library="C:/opencv/x64/mingw/lib/libopencv_video343.dll.a" />
+					<Add library="C:/opencv/x64/mingw/lib/libopencv_videoio343.dll.a" />
+					<Add library="C:/opencv/x64/mingw/lib/libopencv_videostab343.dll.a" />
+					<Add directory="C:/opencv/x64/mingw/bin" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
