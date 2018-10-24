@@ -41,6 +41,8 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-Og" />
+			<Add option="-g" />
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
